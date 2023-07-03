@@ -1,4 +1,20 @@
-# trader-demo
+# Trader demo
+
+For this demo I used Quarkus 3.x, Java 17, RESTeasy with Jackson and H2 in-memory database.
+
+## Traders
+
+This demo has four predefined traders:
+- Trader `ID=1`: General rate
+- Trader `ID=2`: General amount
+- Trader `ID=3`: Winnings rate
+- Trader `ID=4`: Winnings amount
+
+## Testing the application
+
+Use `http://localhost:8080/q/swagger-ui/` for live testing the REST resource
+
+## Quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
